@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table은 쉽다</title>
+</head>
+
+<body>
+    <table border="3">
+        <thead>
+            <tr> <!--한 행을 만들어주는 태그 tr-->
+                <th>이름</th> <!--제목을 만들어주는 태그 th (h1태그처럼 사용해 주시면 됩니다.)-->
+                <th>과목</th>
+                <th>성적</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>장준혁</td> <!--데이터를 넣는 태그 td-->
+                <td>수학</td> <!--꼭 순서대로 데이터를 넣어주셔야 합니다!-->
+                <td>50</td>
+
+                <td rowspan="3">학생들</th><!--밑으로 3줄 병합!-->
+            </tr>
+            <tr>
+                <td>김장훈</td>
+                <td>독도킥</td>
+                <td>100</td>
+                <td rowspan="2">우등생</td>
+            </tr>
+            <tr>
+                <td>홍길동</td>
+                <td>도둑질</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+            <th colspan="2">평균</th> <!--옆으로 두 줄 병합!-->
+            <td>83.33333</td></tr>
+            <tr>
+                <th colspan="3">표준편차</th>
+                <td colspan="2">5.777</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>

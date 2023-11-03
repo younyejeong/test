@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe은 신기해</title>
+</head>
+<body>
+    <h1>네이버</h1>
+    <iframe src="http://naver.com" frameborder="1" width="500px" height="600px" name = "naver"></iframe>
+    <h1>다른 html 문서에서 불러와 볼까요?</h1>
+    <iframe name ="iframe" src="./2.html" frameborder="1" width="500px" height="600px"></iframe>
+    <a href="http://www.amazon.com" target="naver">이 링크를 클릭하시면 iframe에 다른 문서가 떠요!</a>
+    <!--name과 target이 연동됨-->
+</body>
+</html>
