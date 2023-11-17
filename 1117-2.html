@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+</head>
+<script>
+    const people = [
+        { name: '장준혁', age: 22 },
+        { name: '아버지', age: 52 },
+        { name: '동생', age: 21 }
+    ];
+    const names = people.map(person => person.name);
+    console.log(names);
+    for (key of names)
+        document.write(key + '<br>');
+    const ages = people.map(person => person.age);
+    console.log(ages);
+    for (key of ages)
+        document.write(key + '<br>');
+</script>
+
+<body>
+
+</body>
+
+</html>
